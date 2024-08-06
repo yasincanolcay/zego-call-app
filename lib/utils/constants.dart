@@ -9,7 +9,7 @@ import 'package:zego_call_test/screens/register_page.dart';
 // Package imports:
 
 // Project imports:
-import 'screens/login_page.dart';
+import '../screens/login_page.dart';
 
 class PageRouteNames {
   static const String login = '/login';

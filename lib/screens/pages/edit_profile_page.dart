@@ -3,10 +3,10 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:zego_call_test/constants.dart';
+import 'package:zego_call_test/utils/constants.dart';
 import 'package:zego_call_test/database/firebase_methods.dart';
 import 'package:zego_call_test/models/user.dart';
-import 'package:zego_call_test/utils.dart';
+import 'package:zego_call_test/utils/utils.dart';
 
 class EditProfilePage extends StatefulWidget {
   const EditProfilePage({

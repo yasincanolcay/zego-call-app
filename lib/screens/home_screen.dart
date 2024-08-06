@@ -4,13 +4,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 // Package imports:
-import 'package:zego_call_test/constants.dart';
+import 'package:zego_call_test/utils/constants.dart';
 import 'package:zego_call_test/database/auth_methods.dart';
 import 'package:zego_call_test/database/firebase_methods.dart';
 import 'package:zego_call_test/screens/pages/edit_profile_page.dart';
 import 'package:zego_call_test/screens/pages/online_users_page.dart';
 import 'package:zego_call_test/screens/pages/stream_call_listener.dart';
-import 'package:zego_call_test/utils.dart';
+import 'package:zego_call_test/utils/utils.dart';
 
 import '../models/user.dart';
 // Project imports:

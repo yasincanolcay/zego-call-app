@@ -1,9 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:zego_call_test/constants.dart';
+import 'package:zego_call_test/utils/constants.dart';
 import 'package:zego_call_test/screens/home_screen.dart';
-import 'package:zego_call_test/screens/loading_page.dart';
 import 'package:zego_call_test/screens/login_page.dart';
 import 'package:zego_uikit/zego_uikit.dart';
 import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
@@ -39,7 +38,7 @@ class MyApp extends StatelessWidget {
           stream: FirebaseAuth.instance.authStateChanges(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
-              return const LoadingPage();
+              return const Center(child: CircularProgressIndicator(),);
             }
 
             if (snapshot.connectionState == ConnectionState.active) {

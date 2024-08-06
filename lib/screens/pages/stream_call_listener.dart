@@ -1,10 +1,10 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:zego_call_test/constants.dart';
+import 'package:zego_call_test/utils/constants.dart';
 import 'package:zego_call_test/database/firebase_methods.dart';
 import 'package:zego_call_test/models/call.dart';
-import 'package:zego_call_test/utils.dart';
+import 'package:zego_call_test/utils/utils.dart';
 
 class StreamCallListener extends StatelessWidget {
   const StreamCallListener({

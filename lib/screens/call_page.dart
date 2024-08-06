@@ -5,8 +5,8 @@
 // Flutter imports:
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:zego_call_test/comment.dart';
-import 'package:zego_call_test/constants.dart';
+import 'package:zego_call_test/widgets/avatar_builder.dart';
+import 'package:zego_call_test/utils/constants.dart';
 import 'package:zego_call_test/database/firebase_methods.dart';
 // Package imports:
 import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';

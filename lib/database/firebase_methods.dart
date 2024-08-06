@@ -5,10 +5,10 @@ import 'dart:typed_data';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:zego_call_test/constants.dart';
+import 'package:zego_call_test/utils/constants.dart';
 import 'package:zego_call_test/database/storage_methods.dart';
 import 'package:zego_call_test/models/call.dart';
-import 'package:zego_call_test/utils.dart';
+import 'package:zego_call_test/utils/utils.dart';
 
 class FirebaseMethods {
   final fire = FirebaseFirestore.instance;
