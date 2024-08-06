@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532095594781",
+    "project_id": "zego-calling-app",
+    "storage_bucket": "zego-calling-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532095594781:android:a04258933561ae31cf31f4",
+        "android_client_info": {
+          "package_name": "com.devonesoft.app.zego_call_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXcm6JLnvvTjBDxYrX6ZgQfOyB5oCqLW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

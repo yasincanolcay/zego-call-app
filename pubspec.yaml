@@ -1,0 +1,43 @@
+name: zego_call_test
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.21.0
+  cloud_firestore: ^4.12.2
+  firebase_auth: ^4.12.1
+  firebase_storage: ^11.4.1
+  firebase_core_platform_interface: ^5.0.0
+  zego_uikit_prebuilt_call: 3.15.3
+  image_picker: ^1.0.4
+  image_cropper: ^5.0.0
+  cached_network_image: ^3.3.0
+  uuid: ^3.0.7
+  intl: ^0.18.1
+  audioplayers: ^5.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/video-chat.png
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
