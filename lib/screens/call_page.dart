@@ -1,5 +1,3 @@
-// Flutter imports:
-
 // ignore_for_file: use_build_context_synchronously
 
 // Flutter imports:
@@ -8,9 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:zego_call_test/widgets/avatar_builder.dart';
 import 'package:zego_call_test/utils/constants.dart';
 import 'package:zego_call_test/database/firebase_methods.dart';
-// Package imports:
 import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
-// Project imports:
 
 class CallPage extends StatefulWidget {
   const CallPage({Key? key}) : super(key: key);
